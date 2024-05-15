@@ -17,6 +17,8 @@ serenity = { version = "0.12.1", default-features = false, features = [
     "gateway",
     "model",
 ] }
+shuttle-runtime = "0.45.0"
+shuttle-serenity = "0.45.0"
 songbird = { version = "0.4.1", features = [
     "builtin-queue",
     "serenity",
