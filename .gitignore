@@ -1,3 +1,4 @@
 /target
 /.env
 /Secrets.toml
+dep-installer/Cargo.lock

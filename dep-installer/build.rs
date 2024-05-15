@@ -6,6 +6,7 @@ fn main() {
             .arg("-y")
             .arg("libopus-dev") // the apt package the project needs
             // can add more here
+            .arg("youtube-dl")
             .status()
             .expect("failed to run apt")
             .success()
