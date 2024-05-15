@@ -1,0 +1,10 @@
+[package]
+name = "dep-installer"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[workspace]
+
+[dependencies]
+shuttle-runtime = "0.45.0"
